@@ -1,0 +1,54 @@
+---
+- src: https://github.com/carlosfrias/apigee-opdk-setup-apigee-user
+
+- src: https://github.com/carlosfrias/apigee-opdk-setup-os-common
+
+- src: https://github.com/carlosfrias/apigee-opdk-setup-os-limits
+
+- src: https://github.com/carlosfrias/apigee-opdk-setup-os-minimum
+
+- src: https://github.com/carlosfrias/apigee-opdk-setup-default-settings
+
+- src: https://github.com/carlosfrias/apigee-opdk-time-sync
+
+- src: https://github.com/carlosfrias/apigee-opdk-setup-openjdk
+
+- src: https://github.com/carlosfrias/apigee-opdk-setup-bootstrap
+
+- src: https://github.com/carlosfrias/apigee-opdk-setup-bootstrap-create-archive
+
+- src: https://github.com/carlosfrias/apigee-opdk-setup-bootstrap-download-archive
+
+- src: https://github.com/carlosfrias/apigee-opdk-setup-bootstrap-upload-archive
+
+- src: https://github.com/carlosfrias/apigee-opdk-setup-bootstrap-archive-installer
+
+- src: https://github.com/carlosfrias/apigee-opdk-setup-component
+
+- src: https://github.com/carlosfrias/apigee-opdk-set-reachable
+
+- src: https://github.com/carlosfrias/apigee-opdk-setup-component-installer
+
+- src: https://github.com/carlosfrias/apigee-opdk-setup-selinux-disable
+
+- src: https://github.com/carlosfrias/apigee-opdk-shutdown-iptables
+
+- src: https://github.com/carlosfrias/apigee-fetch-files
+
+- src: https://github.com/carlosfrias/apigee-opdk-setup-os-postgres
+
+- src: https://github.com/carlosfrias/apigee-opdk-setup-status
+
+- src: https://github.com/carlosfrias/apigee-opdk-setup-bootstrap-rollback
+
+- src: https://github.com/carlosfrias/apigee-opdk-start-component
+
+- src: https://github.com/carlosfrias/apigee-opdk-stop-components
+
+- src: https://github.com/carlosfrias/apigee-opdk-backup
+
+- src: https://github.com/carlosfrias/apigee-opdk-restore
+
+- src: https://github.com/carlosfrias/apigee-opdk-server-self.git
+
+- src: https://github.com/carlosfrias/apigee-opdk-aws-setup.git

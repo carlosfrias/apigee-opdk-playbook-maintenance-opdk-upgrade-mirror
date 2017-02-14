@@ -1,0 +1,18 @@
+---
+- hosts: '{{ hosts }}'
+  serial: 1
+  vars_files:
+  - ~/.apigee/credentials.yml
+  roles:
+  - apigee-opdk-setup-bootstrap-upload-archive
+  tags:
+  - upload
+
+- hosts: '{{ hosts }}'
+  vars_files:
+  - ~/.apigee/credentials.yml
+  roles:
+  - apigee-opdk-setup-default-settings
+  - apigee-opdk-setup-bootstrap-archive-installer
+  tags:
+  - install

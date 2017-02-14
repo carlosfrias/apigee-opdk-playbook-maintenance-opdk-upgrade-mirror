@@ -1,0 +1,26 @@
+---
+- include: configuration/update_cache.yml
+  tags:
+  - cache
+  - os-pre-req
+  - apigee-pre-req
+
+- include: configuration/load-opdk-credentials.yml
+  vars:
+    hosts: 'mirror'
+  tags:
+  - credentials
+  - os-pre-req
+  - apigee-pre-req
+
+- include: components/opdk-apigee-mirror-create-download.yml
+  vars:
+    hosts: 'mirror'
+  tags:
+  - apigee-archive
+
+- include: components/opdk-upload-apigee-mirror-archive.yml
+  vars:
+    hosts: 'planet'
+  tags:
+  - upload-archive
