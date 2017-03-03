@@ -1,17 +1,11 @@
 ---
-- include: configuration/update_cache.yml
-  tags:
-  - cache
-  - os-pre-req
-  - apigee-pre-req
-
-- include: configuration/load-opdk-credentials.yml
-  vars:
-    hosts: 'mirror'
-  tags:
-  - credentials
-  - os-pre-req
-  - apigee-pre-req
+- name: Update the ansible cache
+  hosts: planet
+  tags: ['cache']
+  vars_files:
+  - ~/.apigee/credentials.yml
+  roles:
+  - apigee-opdk-setup-default-settings
 
 - include: components/opdk-apigee-mirror-create-download.yml
   vars:
